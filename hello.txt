@@ -1,0 +1,5 @@
+[cli][info] Found matching plugin twitch for URL twitch.tv/flosd
+[cli][info] Available streams: audio, high, low, medium, mobile (worst), source (best)
+[cli][info] Opening stream: source (hls)
+[cli][info] Starting player: /Applications/VLC.app/Contents/MacOS/VLC
+Interrupted! Closing currently open stream...
