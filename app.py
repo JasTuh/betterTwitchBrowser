@@ -1,7 +1,6 @@
 from selenium import webdriver
 import time
 import os
-import _tkinter
 from subprocess import Popen
 from functions import *
 import socket
