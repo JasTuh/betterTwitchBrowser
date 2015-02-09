@@ -8,3 +8,5 @@ A command line interface for twitch.tv
 [PhantomJS](http://phantomjs.org/download.html)
 
 [Selenium](http://www.seleniumhq.org/)
+
+[livestreamer](http://docs.livestreamer.io/)
