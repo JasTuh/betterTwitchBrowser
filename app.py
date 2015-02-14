@@ -4,7 +4,12 @@ import os
 from subprocess import Popen
 from functions import *
 import socket
-os.system("clear")
+import platform
+if platform.system() == "Windows":
+	clearText = "cls"
+else:
+	clearText = "clear"
+os.system(clearText)
 try:
 	f = open(".userinfo.csv", "r")
 	a = f.read()
@@ -34,7 +39,7 @@ if driver.current_url != "http://www.twitch.tv/":
 	driver.quit()
 	exit(1)
 print "logged in as " + userName
-start(driver)
+start(driver, clearText)
 # except:
 # 	print "An error occured, please rerun the program making sure you enter valid choices."
 # 	driver.quit()
