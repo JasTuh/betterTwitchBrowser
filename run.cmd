@@ -1,1 +1,0 @@
-python c:\Users\Jason\Desktop\betterTwitchBrowser-master\app.py
