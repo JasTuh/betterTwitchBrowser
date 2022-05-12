@@ -117,7 +117,7 @@ def custom(driver, streamer, chat):
 		nick = 'jastuh192'
 		channel = '#'+streamer.lower()
 		server = 'irc.twitch.tv'
-		password = 'oauth:sai9s3p0b80dy1758xpr3gtyt4g0ql'
+		password = 'this should be a secrets file'
 
 		irc = socket.socket()
 		irc.connect((server, 6667)) #connects to the server
@@ -195,7 +195,6 @@ def custom(driver, streamer, chat):
 				driver.set_window_size(1120, 550)
 				driver.get("http://www.twitch.tv/login")
 				driver.find_element_by_id('login_user_login').send_keys(userName)
-				driver.find_element_by_id('user[password]').send_keys("Hihi47")
 				driver.find_element_by_css_selector(".button.primary").click()
 				start(driver)
 			except KeyboardInterrupt:
