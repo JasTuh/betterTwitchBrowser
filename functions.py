@@ -168,7 +168,7 @@ def custom(driver, streamer, chat):
 					driver.set_window_size(1120, 550)
 					driver.get("http://www.twitch.tv/login")
 					driver.find_element_by_id('login_user_login').send_keys(userName)
-					driver.find_element_by_id('user[password]').send_keys("Hihi47")
+					driver.find_element_by_id('user[password]').send_keys("This should be a secrets file")
 					driver.find_element_by_css_selector(".button.primary").click()
 					start(driver)
 				except KeyboardInterrupt:
